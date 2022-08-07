@@ -1,0 +1,9 @@
+.app {
+    min-height: 100vh;
+    max-height: 100vh;
+    background-color: #659DBD;
+}
+
+.mt-0{
+    margin-top: 0 !important;
+}
