@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import Catalog from "../../Features/catalog/Catalog";
+import Navbar from "../../Features/Navbar/Navbar";
 import { Product } from "../models/Product";
 
 function App() {
@@ -12,6 +14,8 @@ useEffect(() => {
 
   return(
     <div className="app">
+      <Navbar/>
+      <Catalog/>
       <h1 className="mt-0">Ghanshyam's</h1>
       <ul>
       {products.map((item, index) => (

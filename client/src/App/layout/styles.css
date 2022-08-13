@@ -7,3 +7,10 @@
 .mt-0{
     margin-top: 0 !important;
 }
+
+.navbar-brand{
+    color: gold;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: larger;
+}
