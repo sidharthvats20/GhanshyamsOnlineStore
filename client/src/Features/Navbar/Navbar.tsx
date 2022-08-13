@@ -1,8 +1,11 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faBirthdayCake, faCake} from  '@fortawesome/free-solid-svg-icons'
+
 export default function Navbar(){
     return(
         <nav className="navbar navbar-dark bg-dark fixed-top">
   <div className="container-fluid col-12">
-        <a className="navbar-brand" href="#">G</a>
+        <a className="navbar-brand" href="#"><FontAwesomeIcon icon={faCake}/></a>
         <a className="navbar-brand" href="#">Ghanshyam's</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
         <span className="navbar-toggler-icon"></span>
