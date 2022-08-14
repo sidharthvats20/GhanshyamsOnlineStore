@@ -1,6 +1,6 @@
 import React from 'react';
-import Logo from './../catalog/logo.png'
-export default function Catalog() {
+import Logo from './../landing/logo.png'
+export default function Landing() {
     return (
         <div className=" landing mt-5 row justify-content-center">
              <div className="col-lg-6 col-sm-7 cakeSvg">
