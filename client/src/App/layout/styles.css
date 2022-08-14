@@ -1,16 +1,95 @@
 .app {
     min-height: 100vh;
     max-height: 100vh;
-    background-color: #659DBD;
+    background-color: beige;
+
 }
 
-.mt-0{
+.productsbg {
+    background-color: rgb(162, 217, 255);
+    min-height: 100vh;
+}
+
+.landing {
+    background-color: beige;
+    min-height: 40vh;
+}
+
+.mt-0 {
     margin-top: 0 !important;
 }
 
-.navbar-brand{
+.navbar-brand {
     color: gold;
     font-family: cursive;
     font-weight: bolder;
     font-size: larger;
+}
+
+.gold-text {
+    color: gold;
+}
+
+.nav-link {
+    color: white;
+}
+
+.wave1 {
+    background-color: beige;
+}
+
+.cakeSvg {
+    margin-top: 20vh;
+}
+
+#Baloon {
+    animation: baloon 2s infinite linear;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+@keyframes baloon {
+    from {
+        transform: rotateZ(-20deg);
+    }
+
+    to {
+        transform: rotateZ(20deg);
+    }
+}
+
+#Flames {
+    animation: aag 2s infinite linear;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+@keyframes aag {
+    from {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(-10deg);
+    }
+}
+
+.Name {
+
+    text-align: center;
+    font-style: italic;
+    font-family: fantasy;
+    color: chocolate;
+}
+
+.logo{
+    margin-top: 15vh;
+}
+
+.tagline{
+    font-weight: bold;
+}
+
+.logo{
+    width: 30%;
 }
